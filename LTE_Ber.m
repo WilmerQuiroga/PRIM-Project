@@ -426,7 +426,7 @@ EbNo=SNRdB -10*log10(k);
 berTheory = berawgn(EbNo,'qam',16);
 
 figure()
-semilogy(SNRdB,berEstberEst,'-o', 'LineWidth',1.4)
+semilogy(SNRdB,berEst,'-o', 'LineWidth',1.4)
 hold on
 semilogy(SNRdB,berTheory,'LineWidth',1.4)
 grid
